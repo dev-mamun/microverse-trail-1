@@ -2,7 +2,6 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <title>Fork Me! FCC: Test Suite Template</title>
     <link rel="stylesheet" href="css/style.css">
   </head>
 
@@ -21,7 +20,78 @@
     - The freeCodeCamp Team
 
     -->
-    <h1>Hello World, we are software developpers!</h1>
+    <div class="container">
+      <header class="header">
+        <h1 id="title" class="text-center"> Abdullah and Essohanam Survey form</h1>
+        <p id="description" class="description text-center">Hello World, we are software developpers!</p>
+      </header>
+      <form id="survey-form">
+        <div class="form-group">
+          <label id="name-label" for="name">Name</label>
+          <input
+           type="text"
+            name="name" 
+            id="name"
+            class="form-control"
+            placeholder="Enter your name"
+            required
+            />
+        </div>
+        <div class="form-group">
+          <label id="name-label" for="name">Email</label>
+          <input
+           type="text"
+            name="name" 
+            id="name"
+            class="form-control"
+            placeholder="Enter your name"
+            required
+            />
+            <div class="form-group">
+              <label id="name-label" for="name">Number</label>
+              <input
+               type="text"
+                name="name" 
+                id="name"
+                class="form-control"
+                placeholder="Enter your name"
+                required
+                />
+                <div class="form-group">
+                  <p>Would you recommend Abdullah and Essohanm service?</p>
+                  <label>
+                    <input
+                      name="user-recommend"
+                      value="definitely"
+                      type="radio"
+                      class="input-radio"
+                      checked
+                    />Definitely</label
+                  >
+                  <label>
+                    <input
+                      name="user-recommend"
+                      value="maybe"
+                      type="radio"
+                      class="input-radio"
+                    />Maybe</label
+                  >
+        
+                  <label
+                    ><input
+                      name="user-recommend"
+                      value="not-sure"
+                      type="radio"
+                      class="input-radio"
+                    />Not sure</label>
+                    <div class="form-group">
+                      <button type="submit" id="submit" class="submit-button">
+                        Submit
+                      </button>
+
+      </form>
+    </div>
+   
     <script  src="js/index.js"></script>
   </body>
 </html>
